@@ -12,7 +12,9 @@ const config = {
     port: process.env.PORT || 4000,
     mediaroot: './media',
     webroot: './www',
-    allow_origin: '*'
+    allow_origin: '*',
+    publish: true,
+    play: true,
   },
   // https: {
   //   port: 8443,
