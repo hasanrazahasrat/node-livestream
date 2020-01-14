@@ -13,8 +13,6 @@ const config = {
     mediaroot: './media',
     webroot: './www',
     allow_origin: '*',
-    publish: true,
-    play: true,
   },
   // https: {
   //   port: 8443,
