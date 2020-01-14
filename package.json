@@ -4,7 +4,8 @@
   "description": "A Node.js implementation of RTMP Server",
   "main": "node_media_server.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "deploy": "git add . && git commit -am \"Initial build\" && git push heroku master"
   },
   "repository": {
     "type": "git",
