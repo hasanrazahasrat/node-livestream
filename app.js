@@ -9,7 +9,7 @@ const config = {
     ping_timeout: 60
   },
   http: {
-    port: 8080,
+    port: process.env.PORT || 4000,
     mediaroot: './media',
     webroot: './www',
     allow_origin: '*'
